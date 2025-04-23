@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 240, 240, 240;
+  --primary-color: 18, 140, 126;
+  --secondary-color: 7, 94, 84;
+  --chat-bg: 229, 221, 213;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+.whatsapp-primary {
+  background-color: rgb(var(--primary-color));
+}
+
+.whatsapp-secondary {
+  background-color: rgb(var(--secondary-color));
+}
+
+.chat-background {
+  background-color: rgb(var(--chat-bg));
+  background-image: url('/chat-bg.png');
+  background-repeat: repeat;
+}
